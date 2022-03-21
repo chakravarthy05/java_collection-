@@ -6,17 +6,17 @@ public class Room {
 
     private Integer capacity;
 
+    public Room(String name, String type, Integer capacity, Double rate) {
+        this.name = name;
+        this.type = type;
+        this.capacity = capacity;
+        this.rate = rate;
+    }
     private Double rate;
 
-    public Room(String name, String type, Integer capacity, Double rate) {
-		super();
-		this.name = name;
-		this.type = type;
-		this.capacity = capacity;
-		this.rate = rate;
-	}
+    
 
-	public String getName() {
+    public String getName() {
         return name;
     }
 

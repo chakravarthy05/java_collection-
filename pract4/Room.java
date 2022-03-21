@@ -16,7 +16,7 @@ public class Room {
 		this.rate = rate;
 	}
 
-	public String getName() {
+    public String getName() {
         return name;
     }
 

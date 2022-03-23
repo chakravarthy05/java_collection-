@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 public class Room {
 
 	private String name;
@@ -9,6 +11,8 @@ public class Room {
 	private double rate;
 	
 	private boolean petFriendly;
+   
+	
 
 	public Room(String name, String type, int capacity, double rate) {
 		this.name = name;
